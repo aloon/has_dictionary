@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "has_dictionary"
-  s.version     = 0.0.1
+  s.version     = "0.0.1"
   s.date		= '2012-10-27'
   s.authors     = ["Alex Gonzalez Lacasa"]
   s.email       = ["alooncom@gmail.com"]
