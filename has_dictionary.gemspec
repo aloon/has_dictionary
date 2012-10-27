@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary = "ActiveRecord association  with a class-based tableless enumerators"
   s.description = "ActiveRecord association  with a class-based tableless enumerators"
 
-  s.files = ["lib/has_dictionary.rb", "lib/dictionary.rb", "README.md"]
+  s.files = ["lib/has_dictionary.rb", "lib/has_dictionary/dictionary.rb", "lib/has_dictionary/has_dictionary.rb", "README.md"]
 
   s.add_runtime_dependency 'activerecord', '>= 3.0.0'
 
