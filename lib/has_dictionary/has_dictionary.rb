@@ -21,6 +21,9 @@ module ActiveRecord
     end
     
   end
+
+  module Base
+    
+  end
 end
 
-ActiveRecord::Base.send( :include, ActiveRecord::Dictionaries )
