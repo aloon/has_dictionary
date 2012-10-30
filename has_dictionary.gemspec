@@ -5,6 +5,7 @@ require "has_dictionary/version"
 Gem::Specification.new do |s|
   s.name        = "has_dictionary"
   s.version     =  HasDictionary::VERSION
+  s.platform    =  Gem::Platform::RUBY
   s.date		    = '2012-10-27'
   s.authors     = ["Alex Gonzalez Lacasa"]
   s.email       = ["alooncom@gmail.com"]
