@@ -1,6 +1,6 @@
 module ActiveRecord
 
-  module Dictionaries
+  module HasDictionary
     
     def self.included( base ) #:nodoc:
       base.send( :extend, ActsMethods )
