@@ -1,9 +1,9 @@
 class Dictionary
-	attr_reader :id, :desc
+	attr_reader :id, :description
 
-	def initialize id, desc
+	def initialize id, description
          @id = id
-         @desc = desc
+         @description = description
     end
 
     def self.add_item(key,value)

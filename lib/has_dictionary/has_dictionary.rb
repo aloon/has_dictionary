@@ -1,13 +1,10 @@
-module ActiveRecord
-
   module HasDictionary
-    
-    def self.included( base ) #:nodoc:
-      base.send( :extend, ActsMethods )
+    extend ActiveSupport::Concern
+ 
+    included do
     end
-    
-    module ActsMethods #:nodoc:
-      
+ 
+    module ClassMethods
       def has_dictionary(options = {})
         class_attribute :dic_options
 
@@ -17,13 +14,12 @@ module ActiveRecord
           eval "#{dic_options[:dic_class]}.get self.#{dic_options[:field]}"
         }
       end
-
     end
-    
+ 
+    def squawk(string)
+      write_attribute(self.class.yaffle_text_field, string.to_squawk)
+    end
+ 
   end
-
-  module Base
-    
-  end
-end
-
+ 
+ActiveRecord::Base.send :include, HasDictionary

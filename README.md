@@ -40,9 +40,9 @@ now you can:
 
 ```ruby
 	MyClass.find(1).status
-	# returns #<Status:0x00 @id=0, @desc="NEW">
+	# returns #<Status:0x00 @id=0, @description="NEW">
 	
-	MyClass.find(1).status.desc
+	MyClass.find(1).status.description
 	# returns "NEW"
 	
 	element = MyClass.find(1)
@@ -51,5 +51,5 @@ now you can:
 	# this save element.status_id with the value 1
 
 	Status.get
-	#returns [#<Status:0x00 @id=0, @desc="NEW">, #<Status:0x00 @id=1, @desc="GENERATING">, #<Status:0x00 @id=2, @desc="RUN">, #<Status:0x00 @id=3, @desc="DELETING">] 
+	#returns [#<Status:0x00 @id=0, @description="NEW">, #<Status:0x00 @id=1, @description="GENERATING">, #<Status:0x00 @id=2, @description="RUN">, #<Status:0x00 @id=3, @description="DELETING">] 
 ```
