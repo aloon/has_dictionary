@@ -6,7 +6,7 @@ ActiveRecord association with a class-based tableless enumerators.
 
 in Gemfile add:
 
-	gem 'has_dictionary', :git=>'https://github.com/aloon/has_dictionary.git'
+	gem 'has_dictionary'
 
 and execute:
 
