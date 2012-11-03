@@ -53,3 +53,4 @@ now you can:
 	Status.get
 	#returns [#<Status:0x00 @id=0, @description="NEW">, #<Status:0x00 @id=1, @description="GENERATING">, #<Status:0x00 @id=2, @description="RUN">, #<Status:0x00 @id=3, @description="DELETING">] 
 ```
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/523c8b815571903a88c84530ccfeb23b "githalytics.com")](http://githalytics.com/aloon/has_dictionary)
