@@ -1,3 +1,5 @@
+[![has_dictionary API Documentation](https://www.omniref.com/ruby/gems/has_dictionary.png)](https://www.omniref.com/ruby/gems/has_dictionary)
+
 # has_dictionary Gem
 
 ActiveRecord association with a class-based tableless enumerators.
